@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="video_container">
+        <video src="video/black_video.mp4" class="video">
+        </video>
+        <div class="video_controls">
+            <div class="play_btn">
+                <span class="play_icon active">▶</span>
+                <span class="pause_icon">⏸</span>
+            </div>
+            <div class="controls_bottom">
+                <div class="bottom__play_btn">
+                    <span class="play_icon active">▶</span>
+                    <span class="pause_icon">⏸</span>
+                </div>
+                <div class="video_volume">
+                    <div class="volume_icons">
+                        <span class="highVolume_icon">🔊</span> 
+                        <span class="mediumVolume_icon active">🔉</span>
+                        <span class="muted_icon">🔇</span> 
+                    </div>
+                    <input class="volume_input" type="range" min="0" max="100" value="50">
+
+                </div>
+                <div class="play_bar">
+                    <input class="play_bar__input" type="range" min="0" max="100" value="0">
+                </div>
+                <div class="bottom__timer">
+                    00:00:00 / 00:00:00
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
